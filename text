@@ -1,0 +1,57 @@
+ .box1 {
+    font-weight: bold;
+    border: 2px solid black;
+    border: 0;
+    background:  rgb(40, 40, 155,0.2);
+    border-radius: 4px;
+    box-shadow: 0 5px 0 #75a1b8;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    outline: 0;
+    transition: all .1s linear;
+    border-radius: 10px;
+    height: 20%;
+    /* margin: 5px 1% 5px 1%; */
+    float: right;
+    transition: width 0.5s;
+    -webkit-transition: width 0.5s;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+    position: relative;
+  }
+  .box1:hover {
+    color: #ff7b29;
+     border-radius: 5%;
+     background-color: rgb(245, 193, 5);
+     transform: scale(1.1);
+     height: 100px;
+     /* width: 25vw; */
+   }
+   <div class="parentcolumn1">
+  left
+ </div>
+ <div class="parentcolumn1">
+    right
+    <div class="row1">
+      <div class="column1">
+        row1column1
+      </div>
+     </div>
+     <div class="row2">
+      <div class="column1">
+        row2column1
+      </div>
+     </div>
+     <div class="row1">
+      <div class="column2">
+        row1column2
+      </div>
+     </div>
+     <div class="row2">
+      <div class="column2">
+        row2column2
+      </div>
+     </div>
+ </div>
